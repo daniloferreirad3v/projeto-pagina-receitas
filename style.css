@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+
+}
+body {
+    background-image: url(imgs/bg-image.jpg);
+    background-size: cover;
+}
+#page {
+    width: 800px;
+    height: 1440px;
+}
+
+img {
+    border-radius: 16px;
+}
