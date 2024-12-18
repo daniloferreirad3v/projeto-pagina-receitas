@@ -8,7 +8,9 @@ body {
 }
 #page {
     width: 800px;
-    height: 1440px;
+    padding: 24px;
+    background-color: #F0E8C2;
+
 }
 
 img {
