@@ -1,22 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
   background-image: url(imgs/bg-image.jpg);
   background-size: cover;
   font-family: "Alice", serif;
+  font-style: normal;
+}
+
+main {
+    padding: 24px;
+}
+
+section + section {
+    margin-top: 24px;
+}
+
+#about p + p {
+    margin-top: 12px;
 }
 
 h1 {
   font-size: 40px;
   line-height: 150%;
+  font-style: normal;
 }
 
 h2 {
     font-size: 24px;
     line-height: 140%;
+    margin-bottom: 4px;
 }
 h1,
 h2 {
   color: #291b1a;
   
+}
+
+ul {
+    padding-left: 24px;
 }
 
 p,
